@@ -1,0 +1,41 @@
+{
+  "name": "openapi-to-wxrequest-generator",
+  "version": "1.0.0",
+  "description": "Generates a JavaScript module with wx.request functions from an OpenAPI spec.",
+  "main": "openapi-to-wxrequest.js",
+  "bin": {
+    "openapi-to-wxrequest": "./openapi-to-wxrequest.js"
+  },
+  "scripts": {
+    "generate": "node openapi-to-wxrequest.js"
+  },
+  "keywords": [
+    "openapi",
+    "wx.request",
+    "generator",
+    "微信小程序",
+    "wechat",
+    "miniprogram",
+    "api-client"
+  ],
+  "author": {
+    "name": "lh",
+    "url": "https://github.com/LiHaoGit/openapi-to-wxrequest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiHaoGit/openapi-to-wxrequest"
+  },
+  "bugs": {
+    "url": "https://github.com/LiHaoGit/openapi-to-wxrequest/issues"
+  },
+  "homepage": "https://github.com/LiHaoGit/openapi-to-wxrequest#readme",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.0.0",
+    "js-yaml": "^4.1.0"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
